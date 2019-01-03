@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/ezreload.svg)](https://badge.fury.io/js/ezreload)
+
 # ezreload
 Spin up a dev server with live reload in just 8 letters.
 
