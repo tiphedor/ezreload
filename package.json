@@ -1,6 +1,6 @@
 {
   "name": "ezreload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Spin up a dev server with live reload in just 8 letters.",
   "main": "index.js",
   "repository": {
