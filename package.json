@@ -1,0 +1,23 @@
+{
+  "name": "quickdev",
+  "version": "1.0.0",
+  "description": "Spin up a dev server with live reload in just 8 letters.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiphedor/quickdev.git"
+  },
+  "author": "Martin STEFFEN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiphedor/quickdev/issues"
+  },
+  "homepage": "https://github.com/tiphedor/quickdev#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "get-port": "^4.1.0",
+    "mime": "^2.4.0",
+    "opn": "^5.4.0",
+    "socket.io": "^2.2.0"
+  }
+}
