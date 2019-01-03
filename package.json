@@ -1,18 +1,18 @@
 {
-  "name": "quickdev",
+  "name": "ezreload",
   "version": "1.0.0",
   "description": "Spin up a dev server with live reload in just 8 letters.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiphedor/quickdev.git"
+    "url": "git+https://github.com/tiphedor/ezreload.git"
   },
   "author": "Martin STEFFEN",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tiphedor/quickdev/issues"
+    "url": "https://github.com/tiphedor/ezreload/issues"
   },
-  "homepage": "https://github.com/tiphedor/quickdev#readme",
+  "homepage": "https://github.com/tiphedor/ezreload#readme",
   "dependencies": {
     "express": "^4.16.4",
     "get-port": "^4.1.0",

@@ -20,10 +20,10 @@ io.on('connection', socket => {
 	})
 })
 
-app.get('/___quickdev_live_reload.js', (req, res) => {
+app.get('/___ezreload_live_reload.js', (req, res) => {
 	return res.status(200)
 		.set('Content-type', 'application/javascript')
-		.end(fs.readFileSync(__dirname + '/___quickdev_live_reload.js'))
+		.end(fs.readFileSync(__dirname + '/___ezreload_live_reload.js'))
 })
 
 app.get('*', (req, res) => {
@@ -40,7 +40,7 @@ app.get('*', (req, res) => {
 			mimeType = 'text/plain'
 		}
 		if (mimeType === 'text/html') {
-			fileContent += '<script src=\'/___quickdev_live_reload.js\'></script>'
+			fileContent += '<script src=\'/___ezreload_live_reload.js\'></script>'
 		}
 
 		return res
